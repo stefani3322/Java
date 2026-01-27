@@ -1,0 +1,22 @@
+/ Файл: StudentInfo.java
+public class StudentInfo {
+
+    // Точка входа в программу
+    public static void main(String[] args) {
+
+        // ФИО студента
+        String fullName = "Степанов Влад";
+
+        // Группа
+        String group = "ИС-21-25";
+
+        // Специальность
+        String program = "Информационные системы";
+
+        // Вывод информации
+        System.out.println("=== Информация о студенте ===");
+        System.out.println("ФИО: " + fullName);
+        System.out.println("Группа: " + group);
+        System.out.println("Специальность: " + program);
+    }
+}
